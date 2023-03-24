@@ -1,0 +1,13 @@
+
+Stwórz klasê Kalkulator, która udostêpnia metodê pozwalaj¹c¹ na zrealizowanie tego zadania 
+
+public double WykonajDzialanie(int a, int b, char znak)
+ {
+ }
+
+ oraz 
+
+ public double WykonajDzialanie(string rownanie)
+ {
+	
+ }
