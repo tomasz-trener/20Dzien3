@@ -5,7 +5,7 @@
  - DateTime DataZakupu
  - Cena Cena
  - string Tytul
- - Lista<Sygnatura> Sygnatury 
+ - List<Sygnatura> Sygnatury 
  - Autor Autor 
  - Karta Nastepna
  - Karta Poprzednia 
