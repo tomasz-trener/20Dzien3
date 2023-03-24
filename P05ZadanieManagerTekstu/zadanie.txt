@@ -1,0 +1,11 @@
+
+Stwóz klasê "ManagerTekstu", która pozwala na 
+
+wczytanie dowolnego zdania np: Ala ma kota
+zwraca najd³u¿szy wyraz 
+
+W przypadku, gdy zdanie nie zawiera ¿adnego wyrazu, metoda rzuca b³êdem 
+
+
+* 
+Rozszerz klasê tak aby by³a mo¿liwoœæ podania wszystkich najd³u¿szych wyrazów, jesli jest ich wiecej niz jeden

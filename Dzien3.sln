@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03KlasaKalkulator", "P03Kl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04ZadanieKalkulator", "P04ZadanieKalkulator\P04ZadanieKalkulator.csproj", "{ABAC63DB-00F7-4C52-92E8-4E8325DFBA6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05ZadanieManagerTekstu", "P05ZadanieManagerTekstu\P05ZadanieManagerTekstu.csproj", "{9ED0527B-8FF7-4C55-AEEE-BF6AE96D2913}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{ABAC63DB-00F7-4C52-92E8-4E8325DFBA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAC63DB-00F7-4C52-92E8-4E8325DFBA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAC63DB-00F7-4C52-92E8-4E8325DFBA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED0527B-8FF7-4C55-AEEE-BF6AE96D2913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED0527B-8FF7-4C55-AEEE-BF6AE96D2913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED0527B-8FF7-4C55-AEEE-BF6AE96D2913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED0527B-8FF7-4C55-AEEE-BF6AE96D2913}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
