@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace P05ZadanieManagerTekstu.Exceptions
+namespace P06ZadaniePogoda
 {
-    internal class ZbytKrotkieZdanieException : Exception
+    internal class Program
     {
-
+        static void Main(string[] args)
+        {
+        }
     }
 }
