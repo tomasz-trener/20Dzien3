@@ -1,0 +1,42 @@
+
+
+1) Karta
+ - int Wydanie
+ - DateTime DataZakupu
+ - Cena Cena
+ - string Tytul
+ - Lista<Sygnatura> Sygnatury 
+ - Autor Autor 
+ - Karta Nastepna
+ - Karta Poprzednia 
+ - string NrKarty 
+2) Sygnatura
+ - int NrSygnatury 
+ - string Komentarz 
+ - DateTime DataZakupu
+ - List<Wypozyczenia> Wypozyczenia
+ - bool Aktywna 
+ - Karta Karta
+
+3) Cena
+ - double Cena
+ - string Komentarz
+
+4) Czytelnik
+ - string NrKarty 
+ - List<Wypozyczenie>
+ - string Imie
+ - string Nazwisko
+
+5) Autor
+ - string Imie
+ - string DrugieImie
+ - string Nazwisko
+
+6) Wypozyczenie
+ - Sygnatura Sygnatura
+ - Czytelnik Czytelnik
+ - DateTime DataWypozyczenia
+ - DateTime DataPrzewidywanegoZwrotu
+ - Datetime DataZwrotu 
+ - string Uwagi 
