@@ -8,10 +8,19 @@ namespace P09Wlasciwosci
 {
     internal class Czlowiek
     {
-        private string imie;
+      //  private string imie;
         private string nazwisko;
 
-        public string Imie { get; set; } // właściwość 
+
+        private string imie;
+        public string Imie
+        {
+            get { return imie; }
+            set { imie = value; }
+        }
+
+
+        // public string Imie { get; set; } // właściwość 
         public string Nazwisko { get; set; } // właściwość 
 
         private int wzrost; //pole
