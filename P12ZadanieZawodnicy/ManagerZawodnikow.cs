@@ -11,6 +11,9 @@ namespace P12ZadanieZawodnicy
     {
         public Zawodnik[] WczytajZawodnikow()
         {
+
+
+
             string url = " http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt";
 
             WebClient wc = new WebClient();
@@ -26,6 +29,7 @@ namespace P12ZadanieZawodnicy
                 Zawodnik z = new Zawodnik();
                 z.Id_zawodnika = Convert.ToInt32(komorki[0]);
 
+                
                 if (!string.IsNullOrEmpty(komorki[1]))
                     z.Id_trenera = Convert.ToInt32(komorki[1]);
 
