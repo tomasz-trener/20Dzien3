@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{528324EF-A947-4FE6-8170-7926714222D9}</ProjectGuid>
+    <ProjectGuid>{62DD3306-273E-4493-83B9-BB82BA485C77}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P06ZadaniePogoda</RootNamespace>
-    <AssemblyName>P06ZadaniePogoda</AssemblyName>
+    <RootNamespace>P07Enumeratory</RootNamespace>
+    <AssemblyName>P07Enumeratory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,9 +49,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="zadanie.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
